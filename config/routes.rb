@@ -1,4 +1,20 @@
-Rails.application.routes.draw do
+Rails.application.routes.draw do 
+  get 'howto/how_to'
+
+  get 'view/watch'
+
+  get 'login/login'
+
+  get 'submit/submit'
+
+  get 'contact/contact_us'
+
+  get 'about_us/about_page'
+  
+
+  get 'home/index'
+
+  root 'home#index'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
